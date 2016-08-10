@@ -1,6 +1,7 @@
-# Running
+== Running
 bundle exec rake db:create db:seed # (only in the first time)
 bundle exec unicorn_rails --config-file config/unicorn.config.rb
 
 
-# change app/controllers/test_controller.rb to put or remove the render :stream => true, and see the difference in Chrome DevTools Network  tab.
+== Testing
+change app/controllers/test_controller.rb to put or remove the render :stream => true, and see the difference in Chrome DevTools Network  tab.
